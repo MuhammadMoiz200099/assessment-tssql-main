@@ -80,5 +80,5 @@ If you were to introduce two more props to plans:
 How would this affect the current plan upgrade calculation?
 
 ### answer here:
-if the current plan includes 2 default users and the new plan includes 5 default users, the upgrade calculation should adjust for the additional users. The new price have the addition price of (newAddedUsers - oldDefaultUser) * pricePerUser this should be added to the plan
+if the current plan includes 2 default users and the new plan includes 5 default users, the upgrade calculation should adjust for the additional users. The new price have the addition price of ((newAddedUsers - oldDefaultUser) * pricePerUser) this should be added to the plan
 ---
