@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Node 18",
+
+  "_version": "18.2.0",
+
+  "ts-node": {
+    "files": true,
+    "experimentalSpecifierResolution": "node"
+ },
+  "files": [
+    "src/global.d.ts"
+  ],
+  "compilerOptions": {
+    "lib": [
+      "es2023"
+    ],
+    "moduleResolution": "Node",
+    "module": "ESNext",
+    "target": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    // extra rules
+    "noUncheckedIndexedAccess": true,
+  },
+  "include": [
+    "src/**/*"
+  ],
+}

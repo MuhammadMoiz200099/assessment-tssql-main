@@ -1,0 +1,36 @@
+# specific to this repo
+*.scratchpad*
+generated
+cdk.*
+!cdk.json
+.dev
+env.list
+*.db
+*.db-*
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# turbo
+.turbo
+
+# nuxt
+*.log*
+.nuxt
+.nitro
+.cache
+.output
+dist
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+.pnpm-debug.log*
+
+# local env file
+.env
